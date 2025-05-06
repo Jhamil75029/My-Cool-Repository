@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a description of My Cool Repo. Replace this text with information about your project, its purpose, and key features.
+Jugando con git a ver que sale, es increíble 
 
 ## Getting Started
 

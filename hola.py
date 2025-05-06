@@ -60,3 +60,5 @@ class Proyecto:
 #2. Debes hacer que cada objeto reconozca a que proyecto pertenece sin la necesidad de tú colocarlo
 #3. Puedes crear una clase solo para todo el Proyecto Manhattan y que solo te de la lista de todos los proyectos
 
+Doofensmirtz = Cientifico("Doofensmirtz")
+Inaladorinador = Experimento("Inaladorinador")
