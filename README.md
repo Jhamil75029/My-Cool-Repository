@@ -34,3 +34,11 @@ Add license information here.
 
 Add your contact information here.
 
+Apuntes a realizar:
+1. Git Init
+2. Git add
+3. Git commit
+4. Git ammend
+5. Git "3 estados"
+6. Git Restore
+
