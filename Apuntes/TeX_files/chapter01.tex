@@ -23,10 +23,18 @@ Una vez hecho esto en la terminal se va a escribir, \textbf{git init} y esto aut
 	\caption{Carpeta Oculta .git en el repositorio}
 \end{figure}
 
+\subsection{Git Add y Git Commit}
+Ahora que git está monitoreando el repositorio podemos crear un fichero de lo que gustemos y git lo detectará, pero no lo guardará automáticamente, es importante entender los 3 estados en los que puede estar un fichero en un repositorio con git.\\
+\begin{enumerate}
+	\item \textbf{modified:} El archivo tiene cambios pero aún no fueron marcados para ser confirmados, se encuentra en el directorio de trabajo.
+	\item \textbf{staged:} Son los archivos que fueron modificados y confirmados para guardarse en el repositorio local, se encuentran en un área temporal transitoria.
+	\item \textbf{commited:} El archivo se encuentra grabado en el repositorio local.
+\end{enumerate}
 
-Git Init
-Git add
-Git commit
+Cuando creamos un archivo nuevo, git no lo reconocerá automáticamente, aparecerá como "untracked" para que git empiece a hacerle seguimiento hay que ejecutar el comando: \textbf{git add nombre-del-archivo}, y así pasará al estado de \textbf{staged}.
+
+Una vez que todos los archivos se encuentren en el estado staged, estaŕan listos para que se les pueda realizar un commit, básicamente les estamos sacando una foto en el momento actual a todos los archivos, guardando el momento. Esto se hace con el comando \textbf{git commit}, este comando nos abrirá un editor de código para colocar un nombre al commit, una vez colocado el nombre el commit ya queda realizado.
+
+
 Git ammend
-Git "3 estados"
 Git Restore
