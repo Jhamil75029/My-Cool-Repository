@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.25)  7 MAY 2025 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.25)  8 MAY 2025 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -109,7 +109,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] (./main.toc)
+] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -121,41 +128,73 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  (./TeX_files/chapter01.tex
 Chapter 1.
-) [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+[1
 
 
 ]
+<Images/gitinit.png, id=22, 557.08125pt x 258.9675pt>
+File: Images/gitinit.png Graphic file (type png)
+<use Images/gitinit.png>
+Package pdftex.def Info: Images/gitinit.png  used on input line 19.
+(pdftex.def)             Requested size: 389.95422pt x 181.27599pt.
+<Images/dotgit.png, id=23, 378.66469pt x 313.17pt>
+File: Images/dotgit.png Graphic file (type png)
+<use Images/dotgit.png>
+Package pdftex.def Info: Images/dotgit.png  used on input line 22.
+(pdftex.def)             Requested size: 265.06346pt x 219.21748pt.
+) [2 <./Images/gitinit.png (PNG copy)> <./Images/dotgit.png (PNG copy)>]
 \openout2 = `./TeX_files/chapter02.aux'.
 
- (./TeX_files/chapter02.tex [2
 
-
-
-
-]
+(./TeX_files/chapter02.tex
 Chapter 2.
-) [3] [4
+) [3
+
+
+
+
+] [4
 
 
 
 ] (./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux)) ) 
 Here is how much of TeX's memory you used:
- 1404 strings out of 476091
- 24489 string characters out of 5794081
- 1850330 words of memory out of 5000000
- 21809 multiletter control sequences out of 15000+600000
- 515062 words of font info for 41 fonts, out of 8000000 for 9000
+ 1454 strings out of 476091
+ 25249 string characters out of 5794081
+ 1854330 words of memory out of 5000000
+ 21849 multiletter control sequences out of 15000+600000
+ 518413 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,181b,186s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,62p,374b,234s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
-Output written on main.pdf (8 pages, 50504 bytes).
+Output written on main.pdf (8 pages, 175993 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

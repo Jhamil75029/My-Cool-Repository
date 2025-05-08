@@ -1,2 +1,5 @@
-\contentsline {chapter}{\numberline {1}The First Chapter}{1}{}%
+\contentsline {chapter}{\numberline {1}Git}{1}{}%
+\contentsline {section}{\numberline {1.1}¿Qué es Git?}{1}{}%
+\contentsline {section}{\numberline {1.2}Comandos de Git}{1}{}%
+\contentsline {subsection}{\numberline {1.2.1}Git Init}{1}{}%
 \contentsline {chapter}{\numberline {2}The Second Chapter}{3}{}%
