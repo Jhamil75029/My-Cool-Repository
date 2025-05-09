@@ -90,6 +90,8 @@ Los alias son formas de nombrar una serie de comandos en una sola palabra, como 
 \section{Git Checkout y Git Reset}
 git checkout es un comando que tiene 2 usos principales: Restaurar archivos a la versión de su último commit \textbf{(git checkout nombre-de-archivo)}, y también sirve para cambiar de ramas con \textbf{(git checkout nombre-de-tu-rama)}, pero desde la versión 2.23 de git se recomienda utilizar en su lugar el comando \textbf{git switch} para cambiar de rama.\\
 
+%git checkout <ash> <file> para pedir un archivo en concreto de otro commit 
+
 git reset es un comando que tiene unas 3 formas de usarse: soft, mixed y hard:
 \begin{enumerate}
 	\item \textbf{(git reset \texttt{--}soft HEAD\textasciitilde1)} Mueve el puntero de la rama (HEAD) a un commit anterior, pero conserva tus archivos y el stage.
@@ -110,7 +112,13 @@ Para ejecutarlo se usa el comando \textbf{touch .gitignore}, donde se crea un ar
 En este caso creé un archivo de texto llamado JuanitoAlcachofa en el repositorio, coloqué su nombre en el gitignore, luego de eso quedan un par de pasos extra.\\
 Ahora al abrir el git status no aparecerá JuanitoAlcachofa sino que saldrá el archivo .gitignore, a este hay que hacerle un commit y una vez hecho esto, JuanitoAlcachofa no volverá a salir.
 
+\section{Git Merge}
+Este es uno de los comandos más importantes después del commit, ya que esto ayuda a fusionar ramas, las ramas las detallaré más adelante. El \textbf{(git merge tu-rama)}, fusiona la rama que estás llamando a la rama actual en la que estás, y esto es muy útil al trabajar con respositorios remotos, ya que primero programas en tu repositorio local, luego con git push(ya lo veremos) se sube al respositorio remoto y ahí realizamos un merge con el commit que acabamos de subir, y el que ya estaba allí en el repositorio remoto.
 
+\section{Git Push y Git Pull}
+El comando git push como estaba mencionando anteriormente se utiliza para empujar un commit al repositorio remoto, se usa de esta manera: \textbf{git push origin nombre-de-tu-rama}, donde origin es una palabra clave que representa el link de enlace al repositorio remoto, y se debe configurar antes de usarse.\\
+
+El comando git pull, hace lo opuesto, este comando jala los commit del repositorio remoto al repositorio local y se usa así: \textbf{git pull origin nombre-de-tu-rama}.
 
 
 \end{document}
