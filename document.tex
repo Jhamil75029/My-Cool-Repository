@@ -97,7 +97,18 @@ git reset es un comando que tiene unas 3 formas de usarse: soft, mixed y hard:
 	\item \textbf{(git reset \texttt{--}hard HEAD\textasciitilde1)} Elimina el commit y borra todos los cambios del working directory y el stage.
 \end{enumerate}
 
+\section{Git Ignore}
+Se utiliza para ignorar archivos que sabemos que nunca vamos a querer que entren en ningún commit, pueden ser archivos temporales, o archivos de apoyo indirecto al proyecto, pero sin vital relevancia.\\
+Para ejecutarlo se usa el comando \textbf{touch .gitignore}, donde se crea un archivo vacío, en el cual los ficheros que añadamos dentro no serán tomados en cuenta para los futuros commit.\\
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Images/gitignore.png}
+	\caption {\small Usando el Git Ignore}
+\end{figure}
+
+En este caso creé un archivo de texto llamado JuanitoAlcachofa en el repositorio, coloqué su nombre en el gitignore, luego de eso quedan un par de pasos extra.\\
+Ahora al abrir el git status no aparecerá JuanitoAlcachofa sino que saldrá el archivo .gitignore, a este hay que hacerle un commit y una vez hecho esto, JuanitoAlcachofa no volverá a salir.
 
 
 
