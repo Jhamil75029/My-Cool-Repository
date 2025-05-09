@@ -1,6 +1,6 @@
 \documentclass[13pt]{article}
 \usepackage{graphicx}
-
+\usepackage{float}
 %opening
 \title{Mis apuntes de las clases de Git y Github}
 \author{Jhamil Arnez Hidalgo}
@@ -28,10 +28,10 @@ Una vez creada la carpeta, desde la terminal hay que posicionarse sobre esa carp
 Una vez hecho esto en la terminal se va a escribir, \textbf{git init} y esto automáticamente creará una carpeta oculta llamada ".git" en la carpeta.\\
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale = 0.6]{Images/gitinit.png}
+	\includegraphics[scale = 0.4]{Images/gitinit.png}
 	\caption{Git Init ejecutado en la terminal}
 	
-	\includegraphics[scale = 0.6]{Images/dotgit.png}
+	\includegraphics[scale = 0.4]{Images/dotgit.png}
 	\caption{Carpeta Oculta .git en el repositorio}
 \end{figure}
 
@@ -52,32 +52,54 @@ Estos comandos son para observar el estado de tus commits y de tu repositorio re
 
 El comando \textbf{git log}, nos muestra todos los commits existentes en una lista, donde nos muestra el nombre de los commits, la hora y fecha de creación, el código hash de los commits, y el autor de este mismo.\\
 También existen diferentes formas de visualizarlo, una bastante práctica es escribir el comando: \textbf{git log --oneline} donde te muestra todos los commits cada uno en una línea, haciendo más práctico su visualización.
-
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale = 0.4]{Images/gitlog1.png}
 	\caption {\small Git Log en la consola}
-	
+\end{figure}
+
+\begin{figure}[H]
+	\centering
 	\includegraphics[scale = 0.4]{Images/gitlog2.png}
 	\caption {\small Git Log in one line en la consola}
 \end{figure}
 
 El comando \textbf{git status}, nos muestra la lista de todos los archivos que estén en estado staged, modified, y si es nuevo, untracked. Así como también nos muestra si no hay novedades en el repositorio.\\
 
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[scale = 0.7]{Images/gitstatus.png}
+	\includegraphics[scale = 0.4]{Images/gitstatus.png}
 	\caption {\small Git Status en la consola}
 \end{figure}
 
 \section{Alias}
 Los alias son formas de nombrar una serie de comandos en una sola palabra, como si se tratase de un atajo de teclado, nosotros podemos crear un alias para una sucesión de códigos de git larga y para ejecutarla solo redactando una palabra.\\
 
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[scale = 0.6]{Images/alias1.png}
+	\includegraphics[scale = 0.4]{Images/alias1.png}
 	\caption {\small Creamos un alias para git log graph decorate all y oneline}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{Images/alias2.png}
+	\caption {\small Usamos el alias Tree}
+\end{figure}
+
+\section{Git Checkout y Git Reset}
+git checkout es un comando que tiene 2 usos principales: Restaurar archivos a la versión de su último commit \textbf{(git checkout nombre-de-archivo)}, y también sirve para cambiar de ramas con \textbf{(git checkout nombre-de-tu-rama)}, pero desde la versión 2.23 de git se recomienda utilizar en su lugar el comando \textbf{git switch} para cambiar de rama.\\
+
+git reset es un comando que tiene unas 3 formas de usarse: soft, mixed y hard:
+\begin{enumerate}
+	\item \textbf{(git reset \texttt{--}soft HEAD\textasciitilde1)} Mueve el puntero de la rama (HEAD) a un commit anterior, pero conserva tus archivos y el stage.
+	\item \textbf{(git reset HEAD\textasciitilde1)} Quita el commit y saca los archivos del stage, pero mantiene los cambios en el directorio.
+	\item \textbf{(git reset \texttt{--}hard HEAD\textasciitilde1)} Elimina el commit y borra todos los cambios del working directory y el stage.
+\end{enumerate}
+
+
+
+
 
 
 \end{document}

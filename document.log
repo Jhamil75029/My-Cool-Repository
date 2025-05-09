@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.25)  8 MAY 2025 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.25)  8 MAY 2025 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,10 +47,18 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks17
+\float@box=\box51
+\@float@everytoks=\toks18
+\@floatcapt=\box52
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box53
 )
 
 LaTeX Warning: Unused global option(s):
@@ -76,17 +84,17 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
+\scratchcounter=\count195
 \scratchdimen=\dimen143
-\scratchbox=\box52
-\nofMPsegments=\count195
-\nofMParguments=\count196
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count197
+\scratchbox=\box54
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count198
 \MPscratchDim=\dimen144
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -126,17 +134,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 File: Images/gitinit.png Graphic file (type png)
 <use Images/gitinit.png>
 Package pdftex.def Info: Images/gitinit.png  used on input line 31.
-(pdftex.def)             Requested size: 445.66843pt x 207.17558pt.
-
-Overfull \hbox (100.66843pt too wide) in paragraph at lines 31--32
- [][] 
- []
-
+(pdftex.def)             Requested size: 297.10474pt x 138.11354pt.
 <Images/dotgit.png, id=2, 504.88625pt x 417.56pt>
 File: Images/dotgit.png Graphic file (type png)
 <use Images/dotgit.png>
 Package pdftex.def Info: Images/dotgit.png  used on input line 34.
-(pdftex.def)             Requested size: 302.93407pt x 250.53792pt.
+(pdftex.def)             Requested size: 201.95091pt x 167.02103pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -148,15 +151,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (13.0607pt too high) has occurred while \output is active []
-
-
-[2 <./Images/gitinit.png> <./Images/dotgit.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-
+[2 <./Images/gitinit.png> <./Images/dotgit.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
@@ -164,68 +163,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 <Images/gitlog1.png, id=16, 679.53876pt x 493.845pt>
 File: Images/gitlog1.png Graphic file (type png)
 <use Images/gitlog1.png>
-Package pdftex.def Info: Images/gitlog1.png  used on input line 58.
+Package pdftex.def Info: Images/gitlog1.png  used on input line 57.
 (pdftex.def)             Requested size: 271.81068pt x 197.53448pt.
 <Images/gitlog2.png, id=17, 680.5425pt x 243.91125pt>
 File: Images/gitlog2.png Graphic file (type png)
 <use Images/gitlog2.png>
-Package pdftex.def Info: Images/gitlog2.png  used on input line 61.
+Package pdftex.def Info: Images/gitlog2.png  used on input line 63.
 (pdftex.def)             Requested size: 272.21217pt x 97.56276pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[3 <./Images/gitlog1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<Images/gitstatus.png, id=18, 417.56pt x 142.5325pt>
+<Images/gitstatus.png, id=22, 417.56pt x 142.5325pt>
 File: Images/gitstatus.png Graphic file (type png)
 <use Images/gitstatus.png>
-Package pdftex.def Info: Images/gitstatus.png  used on input line 69.
-(pdftex.def)             Requested size: 292.29pt x 99.77205pt.
+Package pdftex.def Info: Images/gitstatus.png  used on input line 71.
+(pdftex.def)             Requested size: 167.02103pt x 57.01198pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<Images/alias1.png, id=19, 733.99219pt x 333.49594pt>
+<Images/alias1.png, id=23, 733.99219pt x 333.49594pt>
 File: Images/alias1.png Graphic file (type png)
 <use Images/alias1.png>
-Package pdftex.def Info: Images/alias1.png  used on input line 78.
-(pdftex.def)             Requested size: 440.3987pt x 200.09909pt.
+Package pdftex.def Info: Images/alias1.png  used on input line 80.
+(pdftex.def)             Requested size: 293.59167pt x 133.39601pt.
+<Images/alias2.png, id=24, 733.23938pt x 322.95656pt>
+File: Images/alias2.png Graphic file (type png)
+<use Images/alias2.png>
+Package pdftex.def Info: Images/alias2.png  used on input line 86.
+(pdftex.def)             Requested size: 293.29056pt x 129.18033pt.
+[4 <./Images/gitlog2.png> <./Images/gitstatus.png> <./Images/alias1.png (PNG co
+py)>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
-Overfull \hbox (95.3987pt too wide) in paragraph at lines 78--79
- [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3] [4 <./Images/gitlog1.png> <./Images/gitlog2.png> <./Images/gitstatus.png>]
-[5 <./Images/alias1.png (PNG copy)>] (./document.aux) ) 
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 95.
+[5 <./Images/alias2.png (PNG copy)>] (./document.aux) ) 
 Here is how much of TeX's memory you used:
- 1351 strings out of 476091
- 22380 string characters out of 5794081
- 1858330 words of memory out of 5000000
- 21763 multiletter control sequences out of 15000+600000
- 516841 words of font info for 47 fonts, out of 8000000 for 9000
+ 1438 strings out of 476091
+ 23792 string characters out of 5794081
+ 1856330 words of memory out of 5000000
+ 21844 multiletter control sequences out of 15000+600000
+ 517009 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,62p,459b,231s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,62p,459b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr9.pfb>
-Output written on document.pdf (5 pages, 365439 bytes).
+s/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb>
+Output written on document.pdf (5 pages, 448896 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
